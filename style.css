@@ -121,7 +121,10 @@ div.metaslider-custom h2{
 .primary-sidebar {
     float: right;
     width: 25%;
-    margin: 40px 0 0 3%;
+    margin: 0 0 0 3%;
+}
+body.home .primary-sidebar {
+    margin-top: 40px;
 }
 .primary-sidebar h2{
     font-size: 14px;
