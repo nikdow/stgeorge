@@ -64,12 +64,20 @@ h1.entry-title {
     color: #353535;
     font-weight: normal;
 }
+h2.entry-title{
+    font-size: 26px;
+    font-weight: normal;
+    padding: 11px 0 26px 0;
+}
+body.home div.entry-content {
+    margin: 0;
+}
 div.entry-content{
     float: left;
     width: 72%;
     margin: 35px 0 0 0;
 }
-article>div.entry-content>img {
+article>div.entry-content img {
     border: solid #000 1px;
     padding: 0px;
     margin: 0px 0px 10px 10px;
