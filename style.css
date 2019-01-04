@@ -155,11 +155,8 @@ Body
 div#content{
 	margin: 25px auto;
 }
-.button.color {
-    color: #fff;
-}
 .button.color,input[type="button"]{
-    color:#1C1D22;
+    color: #ffffff;
 }
 .button.color:hover {
     background: #aaa;
@@ -167,6 +164,9 @@ div#content{
 .button.medium {
     padding: 11px 17px;
     font-size: 14px;
+}
+.button.color, input[type="button"] {
+    background: #2db2ea;
 }
 .button, input[type="button"] {
     padding: 9px 12px;
@@ -181,9 +181,6 @@ div#content{
     -o-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
-}
-.button.color, input[type="button"] {
-    background: #2db2ea;
 }
 a, a:visited{
     text-decoration: none;
