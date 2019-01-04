@@ -17,6 +17,8 @@ body {
     background-repeat: no-repeat;
     background-position-x: 3%;
     background-position-y: 7px;
+    font: 12px Arial,sans-serif;
+    color: #666;
 }
 h1.site-title {
 	height: 2px;
@@ -26,48 +28,6 @@ h1.site-title {
 }
 div.menu-footer-menu-container, div.menu-header-menu-container {
 	margin: 57px  0 0 320px;
-}
-/*
-header menu
- */
-ul#menu-header-menu>li>a{
-    white-space: nowrap;
-}
-ul#menu-header-menu>li>ul.sub-menu{
-    -webkit-padding-start: 0;
-    position: absolute;
-    background: white;
-    padding: 5px 0;
-}
-ul#menu-header-menu>li>ul.sub-menu>li{
-  list-style-type: none;
-    display: none;
-    white-space: nowrap;
-    overflow: visible;
-    clear: left;
-	margin-left: 5px;
-	width: 170%;
-	background: white;
-}
-ul#menu-header-menu>li:hover>ul.sub-menu>li
-{
-    display: block;
-}
-ul#menu-header-menu>li.current-menu-ancestor{
-	font-weight: bold;
-}
-ul#menu-header-menu > li.current-menu-item>ul, ul#menu-header-menu > li.current-menu-ancestor>ul {
-    font-weight: normal;
-}
-ul#menu-header-menu>li>ul.sub-menu>li>ul>li{
-    float: left;
-    list-style-type: none;
-    width: 100%;
-    white-space: nowrap;
-    overflow: visible;
-}
-ul#menu-header-menu>li#menu-item-20.current-menu-ancestor, ul#menu-header-menu>li#menu-item-20>ul {
-    width: 4em;
 }
 form.bop-nav-search input.search-submit, form.bop-nav-search>label>span {
     display: none;
@@ -81,14 +41,40 @@ h1.entry-title {
 }
 div.entry-content{
     float: left;
-    width: 768px;
 }
 div.entry-content.full-width{
     width: 100%;
 }
-/*
-sidebar widgets
- */
+div.carousel-slider-outer{
+    width: 940px;
+}
+div.metaslider-custom>div>div.flexslider>ul>li>div.caption-wrap{
+    width: 30%;
+    padding: 22px;
+    margin: 0 0 20px 20px;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+div.metaslider-custom>div>div.flexslider>ul>li>div.caption-wrap>div.caption{
+    margin: 0;
+    line-height: 19px;
+    color: #bbb;
+    padding: 0;
+}
+div.metaslider-custom h2{
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    line-height: 22px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+    /*
+    sidebar widgets
+     */
 .primary-sidebar {
     float: right;
     width: 25%;

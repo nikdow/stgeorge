@@ -7,7 +7,7 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-
+<?php echo do_shortcode('[metaslider id="270"]'); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php /*
 		// Post thumbnail.
