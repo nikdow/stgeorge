@@ -39,14 +39,17 @@ p {
     margin: 0 0 15px 0;
     line-height: 20px;
 }
-.article .one-third.column {
+article .one-third.column {
     width: 300px;
 }
-.article .column, .article .columns {
+article .column, .article .columns {
     float: left;
     display: inline;
-    margin-left: 10px;
+    margin-top: 50px;
     margin-right: 10px;
+}
+article .column h2 {
+    margin-top: -10px;
 }
 div.menu-footer-menu-container, div.menu-header-menu-container {
 	margin: 57px  0 0 320px;
@@ -100,14 +103,14 @@ div.metaslider-custom h2{
 .primary-sidebar {
     float: right;
     width: 25%;
-    margin-left: 3%;
+    margin: 40px 0 0 3%;
 }
 .primary-sidebar h2{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
     padding-bottom: 5px;
-    color: #353535;
-    font-weight: normal;
+    color: #333333;
 }
 div#primary-sidebar ul#menu-sidebar-links>li>a{
     color: #757575;
