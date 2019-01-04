@@ -114,7 +114,8 @@ div.metaslider-custom h2{
 }
 div#primary-sidebar ul{
     list-style-position: outside;
-    list-style-image: url(images/links-list-arrow-02.png);
+    list-style-image: url(image/links-list-arrow-02.png);
+    margin-left: -27px;
 }
 div#primary-sidebar ul li {
     margin: 0;
