@@ -82,15 +82,13 @@ div.entry-content{
 }
 article>div.entry-content img {
     border: solid #000 1px;
-    padding: 0px;
-    margin: 0px 0px 10px 10px;
+    padding: 0;
+    margin: 0 0 10px 10px;
 }
 div.entry-content.full-width{
     width: 100%;
 }
-div.carousel-slider-outer{
-    width: 940px;
-}
+
 div.metaslider-custom>div>div.flexslider>ul>li>div.caption-wrap{
     width: 30%;
     padding: 22px;
@@ -163,6 +161,9 @@ input.search-field{
 }
 input.search-submit{
     display:none;
+}
+div.primary-sidebar a.button {
+    margin-top: 25px;
 }
 input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select {
     border: 1px solid #d8d8d8;
