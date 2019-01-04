@@ -131,3 +131,14 @@ div#content{
 div#footer {
 	display: none;
 }
+.large-notice {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 32px;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(180,180,180,0.1);
+    box-shadow: 0px 1px 1px 0px rgba(180,180,180,0.1);
+}
+.large-notice p {
+    font-size: 14px;
+    color: #777;
+}
