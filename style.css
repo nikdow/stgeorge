@@ -23,6 +23,9 @@ body {
 #mega-menu-wrap-header-menu #mega-menu-header-menu {
     padding: 0;
 }
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu {
+    width: 200px;
+}
 h1.site-title {
 	height: 2px;
 	display: none;

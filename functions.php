@@ -26,6 +26,13 @@ function gunyang_widgets_init() {
 		'before_title'  => '<h2 class="rounded">',
 		'after_title'   => '</h2>',
 	) );
-
+    register_sidebar( array(
+        'name'          => 'General right sidebar',
+        'id'            => 'general_right_1',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="rounded">',
+        'after_title'   => '</h2>',
+    ) );
 }
 add_action( 'widgets_init', 'gunyang_widgets_init' );
