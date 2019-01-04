@@ -39,10 +39,10 @@ p {
     margin: 0 0 15px 0;
     line-height: 20px;
 }
-.container .one-third.column {
+.article .one-third.column {
     width: 300px;
 }
-.container .column, .container .columns {
+.article .column, .article .columns {
     float: left;
     display: inline;
     margin-left: 10px;
