@@ -9,10 +9,6 @@
 ?>
 <?php echo do_shortcode('[metaslider id="270"]'); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php /*
-		// Post thumbnail.
-		twentyfifteen_post_thumbnail();
-*/	?>
 
     <?php include_once "sidebar.php"?>
 
