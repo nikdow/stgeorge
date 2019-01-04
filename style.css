@@ -66,6 +66,7 @@ h1.entry-title {
 }
 div.entry-content{
     float: left;
+    width: 75%;
 }
 div.entry-content.full-width{
     width: 100%;
