@@ -155,6 +155,34 @@ Body
 div#content{
 	margin: 25px auto;
 }
+.button.color {
+    color: #fff;
+}
+.button.color:hover {
+    background: #aaa;
+}
+.button.medium {
+    padding: 11px 17px;
+    font-size: 14px;
+}
+.button, input[type="button"] {
+    padding: 9px 12px;
+    display: inline-block;
+    border: 0px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+a, a:visited{
+    text-decoration: none;
+    color: #5ca20d;
+}
 div#footer {
 	display: none;
 }
