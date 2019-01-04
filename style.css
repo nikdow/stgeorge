@@ -164,7 +164,7 @@ input.search-field{
 input.search-submit{
     display:none;
 }
-input[type="text"], input[type="password"], input[type="email"], textarea, select {
+input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select {
     border: 1px solid #d8d8d8;
     padding: 9px;
     outline: none;
