@@ -107,6 +107,9 @@ div.metaslider-custom h2{
     font-family: Arial,sans-serif;
     font-weight: bold;
 }
+div#primary{
+    margin: 0 31px; /* align with menu location */
+}
     /*
     sidebar widgets
      */
