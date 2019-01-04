@@ -113,16 +113,19 @@ div.metaslider-custom h2{
     color: #333333;
 }
 div#primary-sidebar ul{
-    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(images/links-list-arrow-02.png);
 }
 div#primary-sidebar ul li {
     margin: 0;
     padding: 0;
     line-height: 18px;
 }
-
+div#primary-sidebar ul li:first-child a {
+    margin: -3px 0 0 0;
+}
 div#primary-sidebar ul li a{
-    color: #5ca20d;
+    color:  #2db2ea;
     text-decoration: none;
     outline: 0;
     -webkit-transition: color 0.1s ease-in-out;
