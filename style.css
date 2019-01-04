@@ -26,6 +26,28 @@ h1.site-title {
 	padding: 6px 0;
 	background-color: #02ffff;
 }
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+p {
+    margin: 0 0 15px 0;
+    line-height: 20px;
+}
+.container .one-third.column {
+    width: 300px;
+}
+.container .column, .container .columns {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 div.menu-footer-menu-container, div.menu-header-menu-container {
 	margin: 57px  0 0 320px;
 }
