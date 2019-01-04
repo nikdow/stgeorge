@@ -147,6 +147,13 @@ div#primary-sidebar ul#menu-sidebar-links>li>a>span {
     display:block;
     font-size: 75%;
 }
+div#primary-sidebar ul{
+    list-style-type: none;
+}
+div#primary-sidebar ul li {
+    margin: 0;
+    padding: 0;
+}
 /*
 Body
  */
