@@ -16,6 +16,7 @@
     <header class="entry-header">
         <?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
     </header><!-- .entry-header -->
+    <break clear="both"/>
     <?php } ?>
 	<div class="entry-content <?=is_page_template( 'full-width.php' ) ? ' full-width' : ''?> ">
             <?php if ( has_post_thumbnail() ) { ?>
