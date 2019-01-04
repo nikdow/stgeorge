@@ -155,6 +155,15 @@ div#primary-sidebar ul li a{
     -o-transition: color 0.1s ease-in-out;
     -transition: color 0.1s ease-in-out;
 }
+input.search-field{
+    width: 82%;
+    padding-left: 30px;
+    color: #888;
+    background: url(image/search-ico-alt.png) no-repeat 5% 54%;
+}
+input.search-submit{
+    display:none;
+}
 /*
 Body
  */
