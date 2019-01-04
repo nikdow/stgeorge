@@ -20,6 +20,7 @@ body {
 }
 h1.site-title {
 	height: 2px;
+	display: none;
 	padding: 6px 0;
 	background-color: #02ffff;
 }
