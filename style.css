@@ -20,6 +20,9 @@ body {
     font: 12px Arial,sans-serif;
     color: #666;
 }
+#mega-menu-wrap-header-menu {
+    margin: 0 auto;
+}
 #mega-menu-wrap-header-menu #mega-menu-header-menu {
     padding: 0;
 }
