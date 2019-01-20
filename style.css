@@ -19,7 +19,7 @@ body {
     font: 12px Arial,sans-serif;
     color: #666;
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1100px) {
     body{
         background-image: url(/bookings/unique/stgeorgealpine/image/SGACLogo.jpg);
     }
