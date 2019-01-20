@@ -15,11 +15,11 @@
 body {
     background-repeat: no-repeat;
     background-position-x: 3%;
-    background-position-y: 7px;
+    background-position-y: 100px;
     font: 12px Arial,sans-serif;
     color: #666;
 }
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1400px) {
     body{
         background-image: url(/bookings/unique/stgeorgealpine/image/SGACLogo.jpg);
     }
