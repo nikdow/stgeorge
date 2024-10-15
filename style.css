@@ -233,3 +233,12 @@ div#footer {
     font-size: 14px;
     color: #777;
 }
+div#primary-sidebar form#login {
+  margin-top: -1em;
+}
+div#primary-sidebar form#login ul {
+  list-style-type: none;
+}
+div#primary-sidebar form#login input[name=login] {
+  margin-top: 1em;
+}
