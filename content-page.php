@@ -7,7 +7,6 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-<?= is_front_page()  ? do_shortcode('[metaslider id="270"]') : ""; ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <?php if( ! is_front_page() ){ ?>
